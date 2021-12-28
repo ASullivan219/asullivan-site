@@ -2,6 +2,7 @@ export const ROUTE ={
     GENERAL: {
         LANDING:'/',
         HOME:'/home',
-        PROJECTS:'/projects'
+        PROJECTS:'/projects',
+        SIGNIN:'/signin'
     }
 }
