@@ -13,7 +13,9 @@ const LandingPage = () => {
                         <Link to={ROUTE.GENERAL.HOME}>
                             <a href="/" className="px-3">Enter Website</a>
                         </Link>
-                        <a href="/" className="px-3">Log-in</a>
+                        <Link to={ROUTE.GENERAL.SIGNIN}>
+                            <a href="/" className="px-3">Log-in</a>
+                        </Link>
                     </div>
                 </div>
             </div>
