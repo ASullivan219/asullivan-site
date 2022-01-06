@@ -11,10 +11,10 @@ const LandingPage = () => {
                     <div className="text-4xl sm:text-6xl font-extrabold"> Alex Sullivan</div>
                     <div className="flex justify-center m-4">
                         <Link to={ROUTE.GENERAL.HOME}>
-                            <a href="/" className="px-3">Enter Website</a>
+                            <p id="enter"className="px-3">Enter Website</p>
                         </Link>
                         <Link to={ROUTE.GENERAL.SIGNIN}>
-                            <a href="/" className="px-3">Log-in</a>
+                            <p id="logon" className="px-3">Log-in</p>
                         </Link>
                     </div>
                 </div>
