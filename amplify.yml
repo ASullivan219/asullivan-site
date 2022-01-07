@@ -48,6 +48,3 @@ test:
     files:
       - '**/*.png'
       - '**/*.mp4'
-        - location
-    configFilePath: *location*
-    baseDirectory: *location*
