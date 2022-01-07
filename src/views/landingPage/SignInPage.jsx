@@ -5,8 +5,8 @@ const SignInPage = () => {
 
 
     return (
-        <AmplifyAuthenticator>
-            <AmplifySignIn hideSignUp="true"/>
+        <AmplifyAuthenticator hideSignUp>
+            <AmplifySignIn slot="sign-in" hideSignUp/>
         </AmplifyAuthenticator>
     )
 }
